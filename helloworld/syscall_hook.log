@@ -1178,3 +1178,39 @@
 [PID:2008435] close: 关闭文件描述符=3, 结果=0
 [PID:2008435] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/objects', 模式:[X_OK ], 结果=0 (成功)
 [PID:2008435] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/refs', 模式:[X_OK ], 结果=0 (成功)
+[PID:2008574] close: 关闭文件描述符=3, 结果=0
+[PID:2008574] access: 检查文件 '/etc/gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2008574] access: 检查文件 '/home/kevin/.config/git/config', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2008574] access: 检查文件 '/home/kevin/.gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2008574] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2008574] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2008574] close: 关闭文件描述符=3, 结果=0
+[PID:2008574] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/objects', 模式:[X_OK ], 结果=0 (成功)
+[PID:2008574] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/refs', 模式:[X_OK ], 结果=0 (成功)
+[PID:2008596] close: 关闭文件描述符=3, 结果=0
+[PID:2008596] access: 检查文件 '/etc/gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2008596] access: 检查文件 '/home/kevin/.config/git/config', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2008596] access: 检查文件 '/home/kevin/.gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2008596] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2008596] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2008596] close: 关闭文件描述符=3, 结果=0
+[PID:2008596] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/objects', 模式:[X_OK ], 结果=0 (成功)
+[PID:2008596] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/refs', 模式:[X_OK ], 结果=0 (成功)
+[PID:2008782] close: 关闭文件描述符=3, 结果=0
+[PID:2008782] access: 检查文件 '/etc/gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2008782] access: 检查文件 '/home/kevin/.config/git/config', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2008782] access: 检查文件 '/home/kevin/.gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2008782] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2008782] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2008782] close: 关闭文件描述符=3, 结果=0
+[PID:2008782] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/objects', 模式:[X_OK ], 结果=0 (成功)
+[PID:2008782] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/refs', 模式:[X_OK ], 结果=0 (成功)
+[PID:2009081] close: 关闭文件描述符=3, 结果=0
+[PID:2009081] access: 检查文件 '/etc/gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2009081] access: 检查文件 '/home/kevin/.config/git/config', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2009081] access: 检查文件 '/home/kevin/.gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2009081] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2009081] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2009081] close: 关闭文件描述符=3, 结果=0
+[PID:2009081] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/objects', 模式:[X_OK ], 结果=0 (成功)
+[PID:2009081] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/refs', 模式:[X_OK ], 结果=0 (成功)
