@@ -1,0 +1,1180 @@
+[PID:2007454] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:4096)
+[PID:2007454] wait: 等待子进程结束
+[PID:2007455] access: 检查文件 '/home/kevin/anaconda3/bin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/home/kevin/anaconda3/condabin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/home/kevin/.cursor-server/cli/servers/Stable-7111807980fa9c93aedd455ffa44b682c0dc1350/server/bin/remote-cli/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/local/sbin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/local/bin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/sbin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/bin/g++', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/home/kevin/anaconda3/bin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/home/kevin/anaconda3/condabin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/home/kevin/.cursor-server/cli/servers/Stable-7111807980fa9c93aedd455ffa44b682c0dc1350/server/bin/remote-cli/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/local/sbin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/local/bin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/sbin/g++', 模式:[X_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/bin/g++', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/specs', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/13/specs', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/specs', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/specs', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/tmp', 模式:[R_OK W_OK X_OK ], 结果=0 (成功)
+[PID:2007455] close: 关闭文件描述符=3, 结果=0
+[PID:2007455] access: 检查文件 '/usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007456] close: 关闭文件描述符=3, 结果=0
+[PID:2007455] close: 关闭文件描述符=4, 结果=0
+[PID:2007455] close: 关闭文件描述符=3, 结果=0
+[PID:2007456] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007456] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007456] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007456] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007456] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007456] open: 打开文件 'hello.cpp', 标志:[], 模式:00, 文件描述符=3
+[PID:2007456] close: 关闭文件描述符=3, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/stdc-predef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/stdc-predef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/stdc-predef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stdc-predef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/stdc-predef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/stdc-predef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/stdc-predef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/iostream', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/requires_hosted.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/c++config.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/os_defines.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/features.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/features.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/features.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/features.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/features.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/features.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/features.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/features-time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/features-time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/features-time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/features-time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/features-time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/features-time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/features-time64.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/timesize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/timesize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/timesize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/timesize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/timesize.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/timesize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/sys/cdefs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/sys/cdefs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/sys/cdefs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/sys/cdefs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/sys/cdefs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/sys/cdefs.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/long-double.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/long-double.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/long-double.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/long-double.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/long-double.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/long-double.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/gnu/stubs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/gnu/stubs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/gnu/stubs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/gnu/stubs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/gnu/stubs.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/gnu/stubs.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/gnu/stubs-64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/gnu/stubs-64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/gnu/stubs-64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/gnu/stubs-64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/gnu/stubs-64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/gnu/stubs-64.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/cpu_defines.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/pstl/pstl_config.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/tbb/tbb.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/tbb/tbb.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/tbb/tbb.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/tbb/tbb.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/tbb/tbb.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/tbb/tbb.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/tbb/tbb.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ostream', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ios', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/iosfwd', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stringfwd.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/memoryfwd.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/postypes.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cwchar', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/wchar.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/floatn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/floatn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/floatn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/floatn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/floatn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/floatn.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/floatn-common.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/floatn-common.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/floatn-common.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/floatn-common.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/floatn-common.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/floatn-common.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/long-double.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/stddef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/stddef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/stddef.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/stdarg.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/stdarg.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/stdarg.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wchar.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/wint_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/wint_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/wint_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/wint_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/wint_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/wint_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/__mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/__mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/__mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/__mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/__mbstate_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/__FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/__FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/__FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/__FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/__FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/__FILE.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/FILE.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/locale_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/__locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/__locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/__locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/__locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/__locale_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/wchar2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/wchar2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/wchar2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/wchar2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/wchar2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/wchar2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/wchar2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/wchar2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/wchar2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/wchar2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wchar2.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/exception', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/exception.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/exception_ptr.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/exception_defines.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/cxxabi_init_exception.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/typeinfo', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/hash_bytes.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/new', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/move.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/type_traits', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/nested_exception.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/char_traits.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cwchar', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/localefwd.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/c++locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/clocale', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/locale.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/locale.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/locale.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cctype', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/ctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/ctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/ctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/ctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/ctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/ctype.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/timesize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/typesizes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/typesizes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/typesizes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/typesizes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/typesizes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/typesizes.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/time64.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/time64.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/endian.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/endianness.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/endianness.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/endianness.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/endianness.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/endianness.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/endianness.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/ios_base.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ext/atomicity.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/gthr.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/gthr-default.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/pthread.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/pthread.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/pthread.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/pthread.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/pthread.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/pthread.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/pthread.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/sched.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/time_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/time_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/time_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/time_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/time_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/time_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/struct_timespec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/struct_timespec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/struct_timespec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/struct_timespec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/struct_timespec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/sched.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/sched.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/struct_sched_param.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/struct_sched_param.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/struct_sched_param.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/struct_sched_param.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/struct_sched_param.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/cpu-set.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/cpu-set.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/cpu-set.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/cpu-set.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/cpu-set.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/cpu-set.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/time.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/time.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/time.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/timex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/timex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/timex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/timex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/timex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/timex.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/struct_timeval.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/struct_timeval.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/struct_timeval.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/struct_timeval.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/struct_timeval.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/clock_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/clock_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/clock_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/clock_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/clock_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/clock_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/struct_tm.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/struct_tm.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/struct_tm.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/struct_tm.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/struct_tm.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/clockid_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/clockid_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/clockid_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/clockid_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/clockid_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/timer_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/timer_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/timer_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/timer_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/timer_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/timer_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/struct_itimerspec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/struct_itimerspec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/struct_itimerspec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/struct_itimerspec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/struct_itimerspec.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/pthreadtypes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/pthreadtypes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/pthreadtypes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/pthreadtypes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/pthreadtypes.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/thread-shared-types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/thread-shared-types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/thread-shared-types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/thread-shared-types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/thread-shared-types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/pthreadtypes-arch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/pthreadtypes-arch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/pthreadtypes-arch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/pthreadtypes-arch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/pthreadtypes-arch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/atomic_wide_counter.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_wide_counter.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/atomic_wide_counter.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/atomic_wide_counter.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/atomic_wide_counter.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/struct_mutex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/struct_mutex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/struct_mutex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/struct_mutex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/struct_mutex.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/struct_mutex.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/struct_rwlock.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/struct_rwlock.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/struct_rwlock.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/struct_rwlock.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/struct_rwlock.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/setjmp.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/setjmp.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/setjmp.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/setjmp.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/setjmp.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/setjmp.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/__sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/__sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/__sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/__sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/__sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/struct___jmp_buf_tag.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/struct___jmp_buf_tag.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/struct___jmp_buf_tag.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/struct___jmp_buf_tag.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/struct___jmp_buf_tag.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/pthread_stack_min-dynamic.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/pthread_stack_min-dynamic.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/pthread_stack_min-dynamic.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/pthread_stack_min-dynamic.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/pthread_stack_min-dynamic.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/atomic_word.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/sys/single_threaded.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/sys/single_threaded.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/sys/single_threaded.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/sys/single_threaded.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/sys/single_threaded.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/sys/single_threaded.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/locale_classes.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/string', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/allocator.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/c++allocator.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/new_allocator.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/functexcept.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/cpp_type_traits.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/ostream_insert.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/cxxabi_forced.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_iterator_base_funcs.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/concept_check.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/debug/assertions.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_iterator_base_types.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_iterator.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ext/type_traits.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/ptr_traits.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_function.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/binders.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ext/numeric_traits.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_algobase.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_pair.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/utility.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/debug/debug.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/predefined_ops.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bit', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/refwrap.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/invoke.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/range_access.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/initializer_list', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/basic_string.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ext/alloc_traits.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/alloc_traits.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_construct.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/string_view', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/functional_hash.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/string_view.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ext/string_conversions.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cstdlib', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/stdlib.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/waitflags.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/waitflags.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/waitflags.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/waitflags.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/waitflags.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/waitflags.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/waitstatus.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/waitstatus.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/waitstatus.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/waitstatus.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/waitstatus.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/waitstatus.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/sys/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/sys/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/sys/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/sys/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/sys/types.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/sys/types.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdint-intn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdint-intn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdint-intn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdint-intn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdint-intn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdint-intn.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/endian.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/endian.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/byteswap.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/byteswap.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/byteswap.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/byteswap.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/byteswap.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/byteswap.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/uintn-identity.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/uintn-identity.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/uintn-identity.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/uintn-identity.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/uintn-identity.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/uintn-identity.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/sys/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/sys/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/sys/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/sys/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/sys/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/sys/select.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/select.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/select.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/sigset_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/select2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/select2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/select2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/select2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/select2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/select2.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/select-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/select-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/select-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/select-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/select-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/select-decl.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/alloca.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/alloca.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/alloca.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/alloca.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/alloca.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/alloca.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/alloca.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdlib-bsearch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdlib-bsearch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdlib-bsearch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdlib-bsearch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdlib-bsearch.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdlib-float.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdlib-float.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdlib-float.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdlib-float.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdlib-float.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdlib-float.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdlib.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdlib.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/std_abs.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cwchar', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cstdio', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/stdio.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/__fpos_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/__fpos_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/__fpos_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/__fpos_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/__fpos_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/__fpos64_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/__fpos64_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/__fpos64_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/__fpos64_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/__fpos64_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/struct_FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/struct_FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/struct_FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/struct_FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/struct_FILE.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/cookie_io_functions_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/cookie_io_functions_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/cookie_io_functions_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/cookie_io_functions_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/cookie_io_functions_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdio_lim.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdio_lim.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdio_lim.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdio_lim.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdio_lim.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdio_lim.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdio2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdio2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdio2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdio2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdio2-decl.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdio.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdio.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdio2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdio2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdio2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdio2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdio2.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdio2.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cerrno', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/errno.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/errno.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/linux/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/linux/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/linux/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/linux/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/linux/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/linux/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/linux/errno.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/asm/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/asm/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/asm/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/asm/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/asm/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/asm/errno.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/asm-generic/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/asm-generic/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/asm-generic/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/asm-generic/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/asm-generic/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/asm-generic/errno.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/asm-generic/errno.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/asm-generic/errno-base.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/asm-generic/errno-base.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/asm-generic/errno-base.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/asm-generic/errno-base.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/asm-generic/errno-base.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/asm-generic/errno-base.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/asm-generic/errno-base.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/types/error_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/types/error_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/types/error_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/types/error_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/types/error_t.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/types/error_t.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/charconv.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/basic_string.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/memory_resource.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cstddef', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/uses_allocator.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/uses_allocator_args.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/tuple', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/locale_classes.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/system_error', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/error_constants.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cerrno', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/stdexcept', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/streambuf', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/streambuf.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/basic_ios.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/locale_facets.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cwctype', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/wctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/wctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/wctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/wctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/wctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/wctype.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/wctype.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/wctype-wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/wctype-wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/wctype-wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/wctype-wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/wctype-wchar.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cctype', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/ctype_base.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/streambuf_iterator.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/ctype_inline.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/locale_facets.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/basic_ios.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/ostream.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/istream', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/istream.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/vector', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_uninitialized.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_vector.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_bvector.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/vector.tcc', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/memory', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_tempbuf.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_raw_storage_iter.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/align.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/stdint.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/stdint.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/stdint.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/local/include/stdint.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/stdint.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/stdint.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/libc-header-start.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/wordsize.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdint-uintn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdint-uintn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdint-uintn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdint-uintn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdint-uintn.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stdint-least.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/c++/13/bits/stdint-least.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/bits/stdint-least.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/include/bits/stdint-least.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/local/include/bits/stdint-least.h', 标志:[], 模式:00, 文件描述符=-1
+[PID:2007456] open: 打开文件 '/usr/include/x86_64-linux-gnu/bits/stdint-least.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/unique_ptr.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/shared_ptr.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/shared_ptr_base.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/allocated_ptr.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ext/aligned_buffer.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ext/concurrence.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/shared_ptr_atomic.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/atomic_base.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/atomic_lockfree_defines.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/backward/auto_ptr.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/pstl/glue_memory_defs.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/pstl/execution_defs.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/algorithm', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_algo.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/algorithmfwd.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_heap.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/uniform_int_dist.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/cstdlib', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/pstl/glue_algorithm_defs.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/ctime', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/map', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_tree.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/node_handle.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_map.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_multimap.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/erase_if.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/set', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_set.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_multiset.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/numeric', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/bits/stl_numeric.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007456] open: 打开文件 '/usr/include/c++/13/pstl/glue_numeric_defs.h', 标志:[], 模式:00, 文件描述符=4
+[PID:2007456] close: 关闭文件描述符=4, 结果=0
+[PID:2007455] close: 关闭文件描述符=3, 结果=0
+[PID:2007474] close: 关闭文件描述符=3, 结果=0
+[PID:2007455] close: 关闭文件描述符=4, 结果=0
+[PID:2007455] close: 关闭文件描述符=3, 结果=0
+[PID:2007455] access: 检查文件 '/usr/libexec/gcc/x86_64-linux-gnu/13/collect2', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so', 模式:[R_OK ], 结果=0 (成功)
+[PID:2007455] close: 关闭文件描述符=3, 结果=0
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/Scrt1.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/13/Scrt1.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/Scrt1.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/../lib/Scrt1.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/13/Scrt1.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o', 模式:[R_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/crti.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/13/crti.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/crti.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/../lib/crti.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/13/crti.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o', 模式:[R_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o', 模式:[R_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o', 模式:[R_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/crtn.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/13/crtn.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/crtn.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/../lib/crtn.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/13/crtn.o', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2007455] access: 检查文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o', 模式:[R_OK ], 结果=0 (成功)
+[PID:2007455] access: 检查文件 '/usr/libexec/gcc/x86_64-linux-gnu/13/collect2', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007475] close: 关闭文件描述符=3, 结果=0
+[PID:2007455] close: 关闭文件描述符=4, 结果=0
+[PID:2007455] close: 关闭文件描述符=3, 结果=0
+[PID:2007475] access: 检查文件 '/usr/bin/ld', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007475] access: 检查文件 '/usr/bin/nm', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007475] access: 检查文件 '/usr/bin/strip', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007475] access: 检查文件 '/usr/bin/g++', 模式:[X_OK ], 结果=0 (成功)
+[PID:2007475] access: 检查文件 '/tmp', 模式:[R_OK W_OK X_OK ], 结果=0 (成功)
+[PID:2007475] close: 关闭文件描述符=3, 结果=0
+[PID:2007475] close: 关闭文件描述符=3, 结果=0
+[PID:2007476] close: 关闭文件描述符=3, 结果=0
+[PID:2007475] close: 关闭文件描述符=4, 结果=0
+[PID:2007475] close: 关闭文件描述符=3, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o', 标志:[], 模式:00, 文件描述符=5
+[PID:2007476] close: 关闭文件描述符=5, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o', 标志:[], 模式:00, 文件描述符=6
+[PID:2007476] close: 关闭文件描述符=6, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o', 标志:[], 模式:00, 文件描述符=7
+[PID:2007476] close: 关闭文件描述符=7, 结果=0
+[PID:2007476] open: 打开文件 '/tmp/cc3uGQRz.o', 标志:[], 模式:00, 文件描述符=8
+[PID:2007476] close: 关闭文件描述符=8, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so', 标志:[], 模式:00, 文件描述符=9
+[PID:2007476] close: 关闭文件描述符=9, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so', 标志:[], 模式:00, 文件描述符=10
+[PID:2007476] close: 关闭文件描述符=10, 结果=0
+[PID:2007476] open: 打开文件 '/lib/x86_64-linux-gnu/libm.so.6', 标志:[], 模式:00, 文件描述符=10
+[PID:2007476] close: 关闭文件描述符=10, 结果=0
+[PID:2007476] open: 打开文件 '/lib/x86_64-linux-gnu/libmvec.so.1', 标志:[], 模式:00, 文件描述符=11
+[PID:2007476] close: 关闭文件描述符=11, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so', 标志:[], 模式:00, 文件描述符=12
+[PID:2007476] close: 关闭文件描述符=12, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1', 标志:[], 模式:00, 文件描述符=12
+[PID:2007476] close: 关闭文件描述符=12, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.so', 标志:[], 模式:00, 文件描述符=15
+[PID:2007476] close: 关闭文件描述符=15, 结果=0
+[PID:2007476] open: 打开文件 '/lib/x86_64-linux-gnu/libc.so.6', 标志:[], 模式:00, 文件描述符=15
+[PID:2007476] close: 关闭文件描述符=15, 结果=0
+[PID:2007476] open: 打开文件 '/lib64/ld-linux-x86-64.so.2', 标志:[], 模式:00, 文件描述符=17
+[PID:2007476] close: 关闭文件描述符=17, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so', 标志:[], 模式:00, 文件描述符=18
+[PID:2007476] close: 关闭文件描述符=18, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1', 标志:[], 模式:00, 文件描述符=18
+[PID:2007476] close: 关闭文件描述符=18, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o', 标志:[], 模式:00, 文件描述符=25
+[PID:2007476] close: 关闭文件描述符=25, 结果=0
+[PID:2007476] open: 打开文件 '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o', 标志:[], 模式:00, 文件描述符=27
+[PID:2007476] close: 关闭文件描述符=27, 结果=0
+[PID:2007475] unlink: 删除文件 '/tmp/ccWdTUTt.cdtor.c', 结果=0 (成功)
+[PID:2007475] unlink: 删除文件 '/tmp/ccO5kXpC.cdtor.o', 结果=0 (成功)
+[PID:2007455] unlink: 删除文件 '/tmp/ccBv4dnz.res', 结果=0 (成功)
+[PID:2007455] unlink: 删除文件 '/tmp/cc3uGQRz.o', 结果=0 (成功)
+[PID:2007455] unlink: 删除文件 '/tmp/cc84FtXx.s', 结果=0 (成功)
+[PID:2007454] wait: 子进程 2007455 结束，退出状态: 0
+[PID:2008435] close: 关闭文件描述符=3, 结果=0
+[PID:2008435] access: 检查文件 '/etc/gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2008435] access: 检查文件 '/home/kevin/.config/git/config', 模式:[R_OK ], 结果=-1 (失败)
+[PID:2008435] access: 检查文件 '/home/kevin/.gitconfig', 模式:[R_OK ], 结果=0 (成功)
+[PID:2008435] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2008435] getcwd: 获取当前目录 = /home/kevin/sectrend/sast-c/hook_test/helloworld (缓冲区大小:129)
+[PID:2008435] close: 关闭文件描述符=3, 结果=0
+[PID:2008435] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/objects', 模式:[X_OK ], 结果=0 (成功)
+[PID:2008435] access: 检查文件 '/home/kevin/sectrend/sast-c/hook_test/.git/refs', 模式:[X_OK ], 结果=0 (成功)
