@@ -11,6 +11,10 @@
 #include <time.h>
 #include <stdarg.h>
 #include <stdbool.h>
+#include <dlfcn.h>
+#include <spawn.h>
+#include <time.h>
+
 
 // 定义原始函数指针
 static pid_t (*real_fork)(void) = NULL;
@@ -32,7 +36,12 @@ static int (*real_close)(int fd) = NULL;
 static int (*real_access)(const char *pathname, int mode) = NULL;
 static unsigned int (*real_sleep)(unsigned int seconds) = NULL;
 static int (*real_unlink)(const char *pathname) = NULL;
-
+static int (*real_posix_spawn)( pid_t *pid,
+                                const char *path,
+                                const posix_spawn_file_actions_t *file_actions,
+                                const posix_spawnattr_t *attrp,
+                                char *const argv[], char *const envp[]
+                            ) = NULL;
 // 避免在log_syscall中产生递归的标志
 static int logging_in_progress = 0;
 
@@ -41,10 +50,10 @@ static void log_syscall(const char *syscall_name, const char *details) {
     if (logging_in_progress) return; // 防止递归
     logging_in_progress = 1;
 
-    // 直接使用系统调用写入文件
+    // 直接使用系统调用写入文件 utf-8 编码
     int fd = open("syscall_hook.log", O_CREAT | O_WRONLY | O_APPEND, 0644);
     if (fd >= 0) {
-        char log_line[1024];
+        char log_line[10240];
         int len = snprintf(log_line, sizeof(log_line),
                           "[PID:%d] %s: %s\n", getpid(), syscall_name, details);
         write(fd, log_line, len);
@@ -92,7 +101,7 @@ int execl(const char *path, const char *arg, ...) {
     snprintf(cmd_details, sizeof(cmd_details), "执行命令: %s", path);
 
     // 收集所有参数到数组中
-    const char *argv[1024]; // 假设不会超过32个参数
+    const char *argv[10240]; // 假设不会超过32个参数
     int argc = 0;
     argv[argc++] = arg;
 
@@ -121,7 +130,7 @@ int execv(const char *path, char *const argv[]) {
     }
 
     // 记录命令和参数
-    char cmd_details[1024];
+    char cmd_details[10240];
     snprintf(cmd_details, sizeof(cmd_details), "执行命令: %s", path);
 
     if (argv) {
@@ -246,8 +255,19 @@ int execvp(const char *file, char *const argv[]) {
     }
 
     // 记录命令和参数
-    char cmd_details[1024];
-    snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH查找): %s", file);
+    char cmd_details[10240];
+
+    // 特别标识编译器调用
+    const char *prefix = "执行命令(PATH查找)";
+    if (strstr(file, "gcc") || strstr(file, "g++") || strstr(file, "clang")) {
+        prefix = "🔥 MAKE调用编译器";
+    } else if (strstr(file, "as")) {
+        prefix = "🔧 编译器调用汇编器";
+    } else if (strstr(file, "ld")) {
+        prefix = "🔗 编译器调用链接器";
+    }
+
+    snprintf(cmd_details, sizeof(cmd_details), "%s: %s", prefix, file);
 
     if (argv) {
         for (int i = 0; argv[i] != NULL; i++) {
@@ -267,7 +287,7 @@ int execvpe(const char *file, char *const argv[], char *const envp[]) {
     }
 
     // 记录命令和参数
-    char cmd_details[1024];
+    char cmd_details[10240];
     snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH+ENV): %s", file);
 
     if (argv) {
@@ -287,7 +307,7 @@ int system(const char *command) {
         real_system = dlsym(RTLD_NEXT, "system");
     }
 
-    char cmd_details[1024];
+    char cmd_details[10240];
     snprintf(cmd_details, sizeof(cmd_details), "执行系统命令: %s", command ? command : "(null)");
     log_syscall("system", cmd_details);
 
@@ -309,11 +329,11 @@ int execlp(const char *file, const char *arg, ...) {
     // 收集参数用于日志记录
     va_list args;
     va_start(args, arg);
-    char cmd_details[1024];
+    char cmd_details[10240];
     snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH查找): %s", file);
 
     // 收集所有参数到数组中
-    const char *argv[1024];
+    const char *argv[10240];
     int argc = 0;
     argv[argc++] = arg;
 
@@ -344,11 +364,11 @@ int execle(const char *path, const char *arg, ...) {
     // 收集参数用于日志记录
     va_list args;
     va_start(args, arg);
-    char cmd_details[1024];
+    char cmd_details[10240];
     snprintf(cmd_details, sizeof(cmd_details), "执行命令(带环境变量): %s", path);
 
     // 收集所有参数到数组中
-    const char *argv[1024];
+    const char *argv[10240];
     int argc = 0;
     argv[argc++] = arg;
 
@@ -375,7 +395,8 @@ int execle(const char *path, const char *arg, ...) {
     }
     // 修改为 NULL 结尾的数组
     char *extra_env[] = {
-        "LD_PRELOAD=/home/kevin/sectrend/sast-c/hook_test/helloworld/syscall_hook_fixed.so"
+        "LD_PRELOAD=/home/kevin/sectrend/sast-c/hook_test/helloworld/syscall_hook_fixed.so",
+        NULL
     };
     char **new_envp = copy_env_with_additions(extra_env, envp);
     printf("new_envp: %s\n", new_envp[0]);
@@ -582,4 +603,42 @@ int unlink(const char *pathname) {
     log_syscall("unlink", details);
 
     return result;
+}
+
+int posix_spawn(pid_t *pid,
+                const char *path,
+                const posix_spawn_file_actions_t *file_actions,
+                const posix_spawnattr_t *attrp,
+                char *const argv[],
+                char *const envp[]
+                ) {
+
+    char cmd_details[10240];
+    snprintf(cmd_details, sizeof(cmd_details), "执行命令(POSIX spawn): %s", path);
+    if (!real_posix_spawn) {
+        real_posix_spawn = dlsym(RTLD_NEXT, "posix_spawn");
+    }
+    if (argv) {
+        for (int i = 0; argv[i] != NULL; i++) {
+            // 检查剩余空间是否足够
+            size_t remaining = sizeof(cmd_details) - strlen(cmd_details) - 1;
+            if (remaining > strlen(argv[i]) + 1) {
+                strncat(cmd_details, " ", remaining);
+                strncat(cmd_details, argv[i], remaining - 1);
+            } else {
+                strncat(cmd_details, " ...", remaining);
+                break;
+            }
+        }
+    }
+    // 移除环境变量打印以避免乱码
+    // if (envp) {
+    //     for (int i = 0; envp[i] != NULL; i++) {
+    //         strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
+    //         strncat(cmd_details, envp[i], sizeof(cmd_details) - strlen(cmd_details) - 1);
+    //     }
+    // }
+    cmd_details[sizeof(cmd_details) - 1] = '\0';
+    log_syscall("posix_spawn", cmd_details);
+    return real_posix_spawn(pid, path, file_actions, attrp, argv, envp);
 }
