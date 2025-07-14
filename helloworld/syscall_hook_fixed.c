@@ -10,16 +10,17 @@
 #include <fcntl.h>
 #include <time.h>
 #include <stdarg.h>
+#include <stdbool.h>
 
 // 定义原始函数指针
 static pid_t (*real_fork)(void) = NULL;
-// static int (*real_execl)(const char *path, const char *arg, ...) = NULL;
-// static int (*real_execlp)(const char *file, const char *arg, ...) = NULL;
-// static int (*real_execle)(const char *path, const char *arg, ...) = NULL;
-// static int (*real_execv)(const char *path, char *const argv[]) = NULL;
+static int (*real_execl)(const char *path, const char *arg, ...) = NULL;
+static int (*real_execlp)(const char *file, const char *arg, ...) = NULL;
+static int (*real_execle)(const char *path, const char *arg, ...) = NULL;
+static int (*real_execv)(const char *path, char *const argv[]) = NULL;
 static int (*real_execve)(const char *path, char *const argv[], char *const envp[]) = NULL;
-// static int (*real_execvp)(const char *file, char *const argv[]) = NULL;
-// static int (*real_execvpe)(const char *file, char *const argv[], char *const envp[]) = NULL;
+static int (*real_execvp)(const char *file, char *const argv[]) = NULL;
+static int (*real_execvpe)(const char *file, char *const argv[], char *const envp[]) = NULL;
 static int (*real_system)(const char *command) = NULL;
 static pid_t (*real_wait)(int *status) = NULL;
 static pid_t (*real_getpid)(void) = NULL;
@@ -78,74 +79,78 @@ pid_t fork(void) {
     return result;
 }
 
-// // Hook execl() - 修复递归问题
-// int execl(const char *path, const char *arg, ...) {
-//     if (!real_execl) {
-//         real_execl = dlsym(RTLD_NEXT, "execl");
-//     }
+// Hook execl() - 修复递归问题
+int execl(const char *path, const char *arg, ...) {
+    if (!real_execl) {
+        real_execl = dlsym(RTLD_NEXT, "execl");
+    }
 
-//     // 收集参数用于日志记录
-//     va_list args;
-//     va_start(args, arg);
-//     char cmd_details[10240];
-//     snprintf(cmd_details, sizeof(cmd_details), "执行命令: %s", path);
+    // 收集参数用于日志记录
+    va_list args;
+    va_start(args, arg);
+    char cmd_details[10240];
+    snprintf(cmd_details, sizeof(cmd_details), "执行命令: %s", path);
 
-//     // 收集所有参数到数组中
-//     const char *argv[1024]; // 假设不会超过32个参数
-//     int argc = 0;
-//     argv[argc++] = arg;
+    // 收集所有参数到数组中
+    const char *argv[1024]; // 假设不会超过32个参数
+    int argc = 0;
+    argv[argc++] = arg;
 
-//     const char *next_arg;
-//     while ((next_arg = va_arg(args, const char*)) != NULL && argc < 1023) {
-//         argv[argc++] = next_arg;
-//         strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
-//         strncat(cmd_details, next_arg, sizeof(cmd_details) - strlen(cmd_details) - 1);
-//     }
-//     argv[argc] = NULL;
-//     va_end(args);
+    const char *next_arg;
+    while ((next_arg = va_arg(args, const char*)) != NULL && argc < 1023) {
+        argv[argc++] = next_arg;
+        strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
+        strncat(cmd_details, next_arg, sizeof(cmd_details) - strlen(cmd_details) - 1);
+    }
+    argv[argc] = NULL;
+    va_end(args);
 
-//     log_syscall("execl", cmd_details);
+    log_syscall("execl", cmd_details);
 
-//     // 使用real_execv替代execl来避免变参问题和递归调用
-//     if (!real_execv) {
-//         real_execv = dlsym(RTLD_NEXT, "execv");
-//     }
-//     return real_execv(path, (char * const *)argv);
-// }
+    // 使用real_execv替代execl来避免变参问题和递归调用
+    if (!real_execv) {
+        real_execv = dlsym(RTLD_NEXT, "execv");
+    }
+    return real_execv(path, (char * const *)argv);
+}
 
-// // Hook execv()
-// int execv(const char *path, char *const argv[]) {
-//     if (!real_execv) {
-//         real_execv = dlsym(RTLD_NEXT, "execv");
-//     }
+// Hook execv()
+int execv(const char *path, char *const argv[]) {
+    if (!real_execv) {
+        real_execv = dlsym(RTLD_NEXT, "execv");
+    }
 
-//     // 记录命令和参数
-//     char cmd_details[1024];
-//     snprintf(cmd_details, sizeof(cmd_details), "执行命令: %s", path);
+    // 记录命令和参数
+    char cmd_details[1024];
+    snprintf(cmd_details, sizeof(cmd_details), "执行命令: %s", path);
 
-//     if (argv) {
-//         for (int i = 0; argv[i] != NULL; i++) {
-//             strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
-//             strncat(cmd_details, argv[i], sizeof(cmd_details) - strlen(cmd_details) - 1);
-//         }
-//     }
+    if (argv) {
+        for (int i = 0; argv[i] != NULL; i++) {
+            strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
+            strncat(cmd_details, argv[i], sizeof(cmd_details) - strlen(cmd_details) - 1);
+        }
+    }
 
-//     log_syscall("execv", cmd_details);
-//     return real_execv(path, argv);
-// }
+    log_syscall("execv", cmd_details);
+    return real_execv(path, argv);
+}
 
 // 引用全局变量 environ
 extern char **environ;
 
-char **copy_env_with_additions(const char *extra_vars[], char *const envp[]) {
+// 修复函数签名和逻辑
+char **copy_env_with_additions(char *const extra_vars[], char *const envp[]) {
     int env_count = 0;
     while (environ[env_count] != NULL) {
         env_count++;
     }
+
+    // 正确计算 extra_vars 数组的长度
     int extra_count = 0;
-    while (envp[extra_count] != NULL) {
+    while (extra_vars[extra_count] != NULL) {
         extra_count++;
     }
+
     int envp_count = 0;
     while (envp[envp_count] != NULL) {
         envp_count++;
@@ -159,10 +164,15 @@ char **copy_env_with_additions(const char *extra_vars[], char *const envp[]) {
         exit(1);
     }
 
+    // 首先复制 extra_vars
     memcpy(new_env, extra_vars, extra_count * sizeof(char *));
-    memcpy(new_env + extra_count, envp, envp_count * sizeof(char *));
-    int tmp_count = 0
-    for (int i = 0; envp[i] != NULL; i++) {
+
+    // 然后复制原有环境变量
+    memcpy(new_env + extra_count, environ, env_count * sizeof(char *));
+
+    // 最后处理 envp 中的变量，避免重复
+    int tmp_count = 0;
+    for (int i = 0; i < envp_count; i++) {
         // 获取环境变量名部分（到 = 为止）
         char* equals = strchr(envp[i], '=');
         if (equals == NULL) continue;
@@ -172,18 +182,31 @@ char **copy_env_with_additions(const char *extra_vars[], char *const envp[]) {
         snprintf(env_prefix, sizeof(env_prefix), "%.*s=", name_len, envp[i]);
 
         bool found = false;
-        for (int j = 0; j < env_count; j++) {
-            if (strncmp(environ[j], env_prefix, strlen(env_prefix)) == 0) {
+
+        // 检查是否在 extra_vars 中已存在
+        for (int j = 0; j < extra_count; j++) {
+            if (strncmp(extra_vars[j], env_prefix, strlen(env_prefix)) == 0) {
                 found = true;
                 break;
             }
         }
+
+        // 检查是否在 environ 中已存在
         if (!found) {
-            new_env[env_count + extra_count + tmp_count] = strdup(envp[i]);
+            for (int j = 0; j < env_count; j++) {
+                if (strncmp(environ[j], env_prefix, strlen(env_prefix)) == 0) {
+                    found = true;
+                    break;
+                }
+            }
+        }
+
+        if (!found) {
+            new_env[extra_count + env_count + tmp_count] = strdup(envp[i]);
             tmp_count++;
         }
     }
-    new_env[env_count + extra_count + tmp_count] = NULL;
+    new_env[extra_count + env_count + tmp_count] = NULL;
     return new_env;
 }
 
@@ -206,55 +229,57 @@ int execve(const char *path, char *const argv[], char *const envp[]) {
 
     log_syscall("execve", cmd_details);
 
+    // 修改为 NULL 结尾的数组
     char *extra_env[] = {
         "LD_PRELOAD=/home/kevin/sectrend/sast-c/hook_test/helloworld/syscall_hook_fixed.so"
     };
 
-    char **new_envp = copy_env_with_additions(extra_env, 1);
+    char **new_envp = copy_env_with_additions(extra_env, envp);
+    printf("new_envp: %s\n", new_envp[0]);
     return real_execve(path, argv, new_envp);
 }
 
 // // Hook execvp() - 这是make常用的函数
-// int execvp(const char *file, char *const argv[]) {
-//     if (!real_execvp) {
-//         real_execvp = dlsym(RTLD_NEXT, "execvp");
-//     }
+int execvp(const char *file, char *const argv[]) {
+    if (!real_execvp) {
+        real_execvp = dlsym(RTLD_NEXT, "execvp");
+    }
 
-//     // 记录命令和参数
-//     char cmd_details[1024];
-//     snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH查找): %s", file);
+    // 记录命令和参数
+    char cmd_details[1024];
+    snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH查找): %s", file);
 
-//     if (argv) {
-//         for (int i = 0; argv[i] != NULL; i++) {
-//             strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
-//             strncat(cmd_details, argv[i], sizeof(cmd_details) - strlen(cmd_details) - 1);
-//         }
-//     }
+    if (argv) {
+        for (int i = 0; argv[i] != NULL; i++) {
+            strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
+            strncat(cmd_details, argv[i], sizeof(cmd_details) - strlen(cmd_details) - 1);
+        }
+    }
 
-//     log_syscall("execvp", cmd_details);
-//     return real_execvp(file, argv);
-// }
+    log_syscall("execvp", cmd_details);
+    return real_execvp(file, argv);
+}
 
-// // Hook execvpe()
-// int execvpe(const char *file, char *const argv[], char *const envp[]) {
-//     if (!real_execvpe) {
-//         real_execvpe = dlsym(RTLD_NEXT, "execvpe");
-//     }
+// Hook execvpe()
+int execvpe(const char *file, char *const argv[], char *const envp[]) {
+    if (!real_execvpe) {
+        real_execvpe = dlsym(RTLD_NEXT, "execvpe");
+    }
 
-//     // 记录命令和参数
-//     char cmd_details[1024];
-//     snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH+ENV): %s", file);
+    // 记录命令和参数
+    char cmd_details[1024];
+    snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH+ENV): %s", file);
 
-//     if (argv) {
-//         for (int i = 0; argv[i] != NULL; i++) {
-//             strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
-//             strncat(cmd_details, argv[i], sizeof(cmd_details) - strlen(cmd_details) - 1);
-//         }
-//     }
+    if (argv) {
+        for (int i = 0; argv[i] != NULL; i++) {
+            strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
+            strncat(cmd_details, argv[i], sizeof(cmd_details) - strlen(cmd_details) - 1);
+        }
+    }
 
-//     log_syscall("execvpe", cmd_details);
-//     return real_execvpe(file, argv, envp);
-// }
+    log_syscall("execvpe", cmd_details);
+    return real_execvpe(file, argv, envp);
+}
 
 // Hook system()
 int system(const char *command) {
@@ -275,81 +300,87 @@ int system(const char *command) {
     return result;
 }
 
-// // Hook execlp() - 在PATH中查找的execl
-// int execlp(const char *file, const char *arg, ...) {
-//     if (!real_execlp) {
-//         real_execlp = dlsym(RTLD_NEXT, "execlp");
-//     }
+// Hook execlp() - 在PATH中查找的execl
+int execlp(const char *file, const char *arg, ...) {
+    if (!real_execlp) {
+        real_execlp = dlsym(RTLD_NEXT, "execlp");
+    }
 
-//     // 收集参数用于日志记录
-//     va_list args;
-//     va_start(args, arg);
-//     char cmd_details[1024];
-//     snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH查找): %s", file);
+    // 收集参数用于日志记录
+    va_list args;
+    va_start(args, arg);
+    char cmd_details[1024];
+    snprintf(cmd_details, sizeof(cmd_details), "执行命令(PATH查找): %s", file);
 
-//     // 收集所有参数到数组中
-//     const char *argv[1024];
-//     int argc = 0;
-//     argv[argc++] = arg;
+    // 收集所有参数到数组中
+    const char *argv[1024];
+    int argc = 0;
+    argv[argc++] = arg;
 
-//     const char *next_arg;
-//     while ((next_arg = va_arg(args, const char*)) != NULL && argc < 1023) {
-//         argv[argc++] = next_arg;
-//         strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
-//         strncat(cmd_details, next_arg, sizeof(cmd_details) - strlen(cmd_details) - 1);
-//     }
-//     argv[argc] = NULL;
-//     va_end(args);
+    const char *next_arg;
+    while ((next_arg = va_arg(args, const char*)) != NULL && argc < 1023) {
+        argv[argc++] = next_arg;
+        strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
+        strncat(cmd_details, next_arg, sizeof(cmd_details) - strlen(cmd_details) - 1);
+    }
+    argv[argc] = NULL;
+    va_end(args);
 
-//     log_syscall("execlp", cmd_details);
+    log_syscall("execlp", cmd_details);
 
-//     // 使用real_execvp来实现
-//     if (!real_execvp) {
-//         real_execvp = dlsym(RTLD_NEXT, "execvp");
-//     }
-//     return real_execvp(file, (char * const *)argv);
-// }
+    // 使用real_execvp来实现
+    if (!real_execvp) {
+        real_execvp = dlsym(RTLD_NEXT, "execvp");
+    }
+    return real_execvp(file, (char * const *)argv);
+}
 
-// // Hook execle() - 带环境变量的execl
-// int execle(const char *path, const char *arg, ...) {
-//     if (!real_execle) {
-//         real_execle = dlsym(RTLD_NEXT, "execle");
-//     }
+// Hook execle() - 带环境变量的execl
+int execle(const char *path, const char *arg, ...) {
+    if (!real_execle) {
+        real_execle = dlsym(RTLD_NEXT, "execle");
+    }
 
-//     // 收集参数用于日志记录
-//     va_list args;
-//     va_start(args, arg);
-//     char cmd_details[1024];
-//     snprintf(cmd_details, sizeof(cmd_details), "执行命令(带环境变量): %s", path);
+    // 收集参数用于日志记录
+    va_list args;
+    va_start(args, arg);
+    char cmd_details[1024];
+    snprintf(cmd_details, sizeof(cmd_details), "执行命令(带环境变量): %s", path);
 
-//     // 收集所有参数到数组中
-//     const char *argv[1024];
-//     int argc = 0;
-//     argv[argc++] = arg;
+    // 收集所有参数到数组中
+    const char *argv[1024];
+    int argc = 0;
+    argv[argc++] = arg;
 
-//     const char *next_arg;
-//     char *const *envp = NULL;
+    const char *next_arg;
+    char *const *envp = NULL;
 
-//     // 收集参数直到遇到NULL，最后一个应该是环境变量指针
-//     while ((next_arg = va_arg(args, const char*)) != NULL && argc < 1022) {
-//         argv[argc++] = next_arg;
-//         strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
-//         strncat(cmd_details, next_arg, sizeof(cmd_details) - strlen(cmd_details) - 1);
-//     }
-//     argv[argc] = NULL;
+    // 收集参数直到遇到NULL，最后一个应该是环境变量指针
+    while ((next_arg = va_arg(args, const char*)) != NULL && argc < 1022) {
+        argv[argc++] = next_arg;
+        strncat(cmd_details, " ", sizeof(cmd_details) - strlen(cmd_details) - 1);
+        strncat(cmd_details, next_arg, sizeof(cmd_details) - strlen(cmd_details) - 1);
+    }
+    argv[argc] = NULL;
 
-//     // 获取环境变量指针
-//     envp = va_arg(args, char *const *);
-//     va_end(args);
+    // 获取环境变量指针
+    envp = va_arg(args, char *const *);
+    va_end(args);
 
-//     log_syscall("execle", cmd_details);
+    log_syscall("execle", cmd_details);
 
-//     // 使用real_execve来实现
-//     if (!real_execve) {
-//         real_execve = dlsym(RTLD_NEXT, "execve");
-//     }
-//     return real_execve(path, (char * const *)argv, envp);
-// }
+    // 使用real_execve来实现
+    if (!real_execve) {
+        real_execve = dlsym(RTLD_NEXT, "execve");
+    }
+    // 修改为 NULL 结尾的数组
+    char *extra_env[] = {
+        "LD_PRELOAD=/home/kevin/sectrend/sast-c/hook_test/helloworld/syscall_hook_fixed.so"
+    };
+    char **new_envp = copy_env_with_additions(extra_env, envp);
+    printf("new_envp: %s\n", new_envp[0]);
+    return real_execve(path, (char * const *)argv, new_envp);
+}
 
 // Hook wait()
 pid_t wait(int *status) {
