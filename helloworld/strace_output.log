@@ -1,0 +1,38 @@
+2053100 execve("/usr/bin/make", ["make", "clean"], 0x7ffe2460b9b0 /* 52 vars */) = 0
+2053100 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2053100 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+2053100 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+2053100 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+2053100 getcwd("/home/kevin/sectrend/sast-c/hook_test/helloworld", 4096) = 49
+2053100 readlink("/proc/self/fd/1", "/dev/pts/0", 4095) = 10
+2053100 newfstatat(AT_FDCWD, "/dev/pts/0", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, 0) = 0
+2053100 readlink("/proc/self/fd/2", "/dev/pts/0", 4095) = 10
+2053100 newfstatat(AT_FDCWD, "/dev/pts/0", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, 0) = 0
+2053100 newfstatat(AT_FDCWD, "/usr/gnu/include", 0x7ffeaf143c20, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+2053100 newfstatat(AT_FDCWD, "/usr/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+2053100 newfstatat(AT_FDCWD, "/usr/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+2053100 newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+2053100 openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+2053100 openat(AT_FDCWD, "makefile", O_RDONLY) = 3
+2053100 newfstatat(AT_FDCWD, "RCS", 0x7ffeaf143bb0, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "SCCS", 0x7ffeaf143bb0, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "makefile", {st_mode=S_IFREG|0664, st_size=202, ...}, 0) = 0
+2053100 newfstatat(AT_FDCWD, "/home/kevin/anaconda3/bin/rm", 0x7ffeaf143660, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "/home/kevin/anaconda3/condabin/rm", 0x7ffeaf143660, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "/home/kevin/.cursor-server/cli/servers/Stable-7111807980fa9c93aedd455ffa44b682c0dc1350/server/bin/remote-cli/rm", 0x7ffeaf143660, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "/usr/local/sbin/rm", 0x7ffeaf143660, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "/usr/local/bin/rm", 0x7ffeaf143660, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "/usr/sbin/rm", 0x7ffeaf143660, 0) = -1 ENOENT (No such file or directory)
+2053100 newfstatat(AT_FDCWD, "/usr/bin/rm", {st_mode=S_IFREG|0755, st_size=59912, ...}, 0) = 0
+2053100 access("/usr/bin/rm", X_OK)     = 0
+2053101 execve("/usr/bin/rm", ["rm", "-f", "hello"], 0x5e45a5033380 /* 57 vars */) = 0
+2053101 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2053101 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+2053101 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+2053101 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+2053101 newfstatat(AT_FDCWD, "hello", 0x62add31e2730, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+2053101 unlinkat(AT_FDCWD, "hello", 0)  = -1 ENOENT (No such file or directory)
+2053101 +++ exited with 0 +++
+2053100 chdir("/home/kevin/sectrend/sast-c/hook_test/helloworld") = 0
+2053100 +++ exited with 0 +++
